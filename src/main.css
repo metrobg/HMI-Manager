@@ -1,0 +1,97 @@
+/*
+////////////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2003-2006 Adobe Macromedia Software LLC and its licensors.
+// All Rights Reserved.
+// The following is Sample Code and is subject to all restrictions on such code
+// as contained in the End User License Agreement accompanying this product.
+// If you have received this file from a source other than Adobe,
+// then your use, modification, or distribution of it requires
+// the prior written permission of Adobe.
+//
+////////////////////////////////////////////////////////////////////////////////
+*/
+ 
+global
+{
+	font-family: "Verdana";
+	disabled-overlay-alpha: 0.1;
+	font-size: 11px;
+}
+ 
+Application
+{
+    backgroundColor:            #6e7cab;
+}
+
+
+ToolTip
+{
+    backgroundColor:           #484842;
+    color:                     #ffffff;
+    fontWeight: 				bold;
+}
+
+
+TitleWindow
+{
+	backgroundAlpha:		1;
+	backgroundColor:		#6e7cab;	
+	borderAlpha:			1;	
+}
+
+Panel
+{
+statusStyleName:		panelStatus;
+titleStyleName:			panelTitleStyle; 
+	
+}
+.panelStatus
+{
+fontWeight:			bold;
+color:				#ffffff;
+fontSize:			10;	
+}
+
+.panelTitleStyle {
+   fontFamily: "Verdana";
+   font-weight: bold;
+   fontSize: 12;
+   textIndent: 0;
+}
+
+SuperPanel
+{
+borderAlpha:			1;	
+backgroundAlpha:		1;
+backgroundColor:		#6e7cab;
+headerHeight:			20;
+}
+.button
+{
+	themeColor:                 #b7babc;
+	 
+}
+
+Button
+{
+fontSize:		10;
+fontWeight: bold;
+color:		#000000;	
+}
+
+
+.photoName
+{
+	fontSize:					12;
+	color:						#ffffff;
+}
+
+
+.redText
+{
+	color: #D32129;
+	fontStyle: normal;
+	fontWeight: bold;
+	textAlign: right;
+}
